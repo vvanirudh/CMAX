@@ -1,0 +1,51 @@
+videos
+*.pyc
+__pycache__
+saved_models
+saved
+logs
+plots
+plot
+
+*.swp
+*.pyc
+*.py~
+.DS_Store
+.cache
+.pytest_cache/
+
+# Setuptools distribution and build folders.
+gym/dist/
+gym/build
+
+# Virtualenv
+gym/env
+
+# Python egg metadata, regenerated from source files by setuptools.
+gym/*.egg-info
+
+*.sublime-project
+*.sublime-workspace
+
+gym/logs/
+
+.ipynb_checkpoints
+ghostdriver.log
+
+junk
+MUJOCO_LOG.txt
+
+rllab_mujoco
+
+tutorial/*.html
+
+# IDE files
+.eggs
+.tox
+
+# PyCharm project files
+.idea
+vizdoom.ini
+
+backup_logs
+save

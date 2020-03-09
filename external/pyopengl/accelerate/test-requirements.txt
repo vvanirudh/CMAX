@@ -1,0 +1,4 @@
+pygame
+pytest
+-r ./requirements.txt
+-e ../

@@ -1,0 +1,10 @@
+#!/home/avemula/.virtualenvs/blackbox/bin/python
+
+from odium.experiment.train_gridworld_rts import launch
+from odium.agents.gridworld_rts_agent.arguments import get_args
+
+if __name__ == '__main__':
+    # Get arguments
+    args = get_args()
+    # Launch
+    launch(args)

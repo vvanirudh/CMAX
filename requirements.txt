@@ -1,0 +1,14 @@
+numpy
+torch
+tensorboard
+ipdb
+mujoco_py
+tensorflow==1.14.0
+mpi4py
+matplotlib
+ray
+psutil
+setproctitle
+sklearn
+pprint
+scipy

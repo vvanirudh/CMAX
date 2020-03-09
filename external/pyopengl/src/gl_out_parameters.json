@@ -1,0 +1,1246 @@
+{
+  "glAreProgramsResidentNV": {
+    "residences": "Boolean out array [n]"
+  }, 
+  "glAreTexturesResident": {
+    "residences": "Boolean out array [n]"
+  }, 
+  "glAreTexturesResidentEXT": {
+    "residences": "Boolean out array [n]"
+  }, 
+  "glCullParameterdvEXT": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glCullParameterfvEXT": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glDebugMessageCallbackAMD": {
+    "userParam": "Void out reference"
+  }, 
+  "glDeletePerfMonitorsAMD": {
+    "monitors": "UInt32 out array [n]"
+  }, 
+  "glFeedbackBuffer": {
+    "buffer": "FeedbackElement out array [size] retained"
+  }, 
+  "glFinishAsyncSGIX": {
+    "markerp": "UInt32 out array [1]"
+  }, 
+  "glFlushVertexArrayRangeAPPLE": {
+    "pointer": "Void out array [length]"
+  }, 
+  "glGenBuffers": {
+    "buffers": "UInt32 out array [n]"
+  }, 
+  "glGenBuffersARB": {
+    "buffers": "UInt32 out array [n]"
+  }, 
+  "glGenFencesAPPLE": {
+    "fences": "FenceNV out array [n]"
+  }, 
+  "glGenFencesNV": {
+    "fences": "FenceNV out array [n]"
+  }, 
+  "glGenFramebuffers": {
+    "framebuffers": "UInt32 out array [n]"
+  }, 
+  "glGenFramebuffersEXT": {
+    "framebuffers": "UInt32 out array [n]"
+  }, 
+  "glGenNamesAMD": {
+    "names": "UInt32 out array [num]"
+  }, 
+  "glGenOcclusionQueriesNV": {
+    "ids": "UInt32 out array [n]"
+  }, 
+  "glGenPerfMonitorsAMD": {
+    "monitors": "UInt32 out array [n]"
+  }, 
+  "glGenProgramPipelines": {
+    "pipelines": "UInt32 out array [n]"
+  }, 
+  "glGenProgramsARB": {
+    "programs": "UInt32 out array [n]"
+  }, 
+  "glGenProgramsNV": {
+    "programs": "UInt32 out array [n]"
+  }, 
+  "glGenQueries": {
+    "ids": "UInt32 out array [n]"
+  }, 
+  "glGenQueriesARB": {
+    "ids": "UInt32 out array [n]"
+  }, 
+  "glGenRenderbuffers": {
+    "renderbuffers": "UInt32 out array [n]"
+  }, 
+  "glGenRenderbuffersEXT": {
+    "renderbuffers": "UInt32 out array [n]"
+  }, 
+  "glGenSamplers": {
+    "samplers": "UInt32 out array [count]"
+  }, 
+  "glGenTextures": {
+    "textures": "Texture out array [n]"
+  }, 
+  "glGenTexturesEXT": {
+    "textures": "Texture out array [n]"
+  }, 
+  "glGenTransformFeedbacks": {
+    "ids": "UInt32 out array [n]"
+  }, 
+  "glGenTransformFeedbacksNV": {
+    "ids": "UInt32 out array [n]"
+  }, 
+  "glGenVertexArrays": {
+    "arrays": "UInt32 out array [n]"
+  }, 
+  "glGenVertexArraysAPPLE": {
+    "arrays": "UInt32 out array [n]"
+  }, 
+  "glGetActiveAtomicCounterBufferiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetActiveAttrib": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array []", 
+    "size": "Int32 out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetActiveAttribARB": {
+    "length": "SizeI out array [1]", 
+    "name": "charARB out array []", 
+    "size": "Int32 out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetActiveSubroutineName": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array [bufsize]"
+  }, 
+  "glGetActiveSubroutineUniformName": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array [bufsize]"
+  }, 
+  "glGetActiveSubroutineUniformiv": {
+    "values": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetActiveUniform": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array []", 
+    "size": "Int32 out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetActiveUniformARB": {
+    "length": "SizeI out array [1]", 
+    "name": "charARB out array []", 
+    "size": "Int32 out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetActiveUniformBlockName": {
+    "length": "SizeI out array [1]", 
+    "uniformBlockName": "Char out array [bufSize]"
+  }, 
+  "glGetActiveUniformBlockiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetActiveUniformName": {
+    "length": "SizeI out array [1]", 
+    "uniformName": "Char out array [bufSize]"
+  }, 
+  "glGetActiveUniformsiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetActiveVaryingNV": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array [COMPSIZE(program/index/bufSize)]", 
+    "size": "SizeI out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetArrayObjectfvATI": {
+    "params": "Float32 out array [1]"
+  }, 
+  "glGetArrayObjectivATI": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetAttachedObjectsARB": {
+    "count": "SizeI out array [1]", 
+    "obj": "handleARB out array [count]"
+  }, 
+  "glGetAttachedShaders": {
+    "count": "SizeI out array [1]", 
+    "obj": "UInt32 out array [count]"
+  }, 
+  "glGetBooleanIndexedvEXT": {
+    "data": "Boolean out array [COMPSIZE(target)]"
+  }, 
+  "glGetBooleani_v": {
+    "data": "Boolean out array [COMPSIZE(target)]"
+  }, 
+  "glGetBooleanv": {
+    "params": "Boolean out array [COMPSIZE(pname)]"
+  }, 
+  "glGetBufferParameteri64v": {
+    "params": "Int64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetBufferParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetBufferParameterivARB": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetBufferParameterui64vNV": {
+    "params": "UInt64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetBufferPointerv": {
+    "params": "VoidPointer out array [1]"
+  }, 
+  "glGetBufferPointervARB": {
+    "params": "VoidPointer out array [1]"
+  }, 
+  "glGetBufferSubData": {
+    "data": "Void out array [size]"
+  }, 
+  "glGetBufferSubDataARB": {
+    "data": "Void out array [size]"
+  }, 
+  "glGetClipPlane": {
+    "equation": "Float64 out array [4]"
+  }, 
+  "glGetClipPlanefOES": {
+    "equation": "Float32 out array [4]"
+  }, 
+  "glGetClipPlanexOES": {
+    "equation": "Fixed out array [4]"
+  }, 
+  "glGetColorTable": {
+    "table": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetColorTableEXT": {
+    "data": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetColorTableParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableParameterfvSGI": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableParameterivSGI": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetColorTableSGI": {
+    "table": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetCombinerInputParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetCombinerInputParameterivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetCombinerOutputParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetCombinerOutputParameterivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetCombinerStageParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetCompressedMultiTexImageEXT": {
+    "img": "Void out array [COMPSIZE(target/lod)]"
+  }, 
+  "glGetCompressedTexImage": {
+    "img": "CompressedTextureARB out array [COMPSIZE(target/level)]"
+  }, 
+  "glGetCompressedTexImageARB": {
+    "img": "CompressedTextureARB out array [COMPSIZE(target/level)]"
+  }, 
+  "glGetCompressedTextureImageEXT": {
+    "img": "Void out array [COMPSIZE(target/lod)]"
+  }, 
+  "glGetConvolutionFilter": {
+    "image": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetConvolutionFilterEXT": {
+    "image": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetConvolutionParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetConvolutionParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetConvolutionParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetConvolutionParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetConvolutionParameterxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetDebugMessageLog": {
+    "ids": "UInt32 out array [COMPSIZE(count)]", 
+    "lengths": "SizeI out array [COMPSIZE(count)]", 
+    "messageLog": "Char out array [COMPSIZE(bufsize)]", 
+    "severities": "GLenum out array [COMPSIZE(count)]", 
+    "sources": "GLenum out array [COMPSIZE(count)]", 
+    "types": "GLenum out array [COMPSIZE(count)]"
+  }, 
+  "glGetDebugMessageLogAMD": {
+    "categories": "GLenum out array [count]", 
+    "ids": "UInt32 out array [count]", 
+    "lengths": "SizeI out array [count]", 
+    "message": "Char out array [bufsize]", 
+    "severities": "UInt32 out array [count]"
+  }, 
+  "glGetDebugMessageLogARB": {
+    "ids": "UInt32 out array [count]", 
+    "lengths": "SizeI out array [count]", 
+    "messageLog": "Char out array [COMPSIZE(lengths)]", 
+    "severities": "GLenum out array [count]", 
+    "sources": "GLenum out array [count]", 
+    "types": "GLenum out array [count]"
+  }, 
+  "glGetDetailTexFuncSGIS": {
+    "points": "Float32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetDoubleIndexedvEXT": {
+    "data": "Float64 out array [COMPSIZE(target)]"
+  }, 
+  "glGetDoublei_v": {
+    "data": "Float64 out array [COMPSIZE(target)]"
+  }, 
+  "glGetDoublev": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFenceivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFinalCombinerInputParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFinalCombinerInputParameterivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFixedvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFloatIndexedvEXT": {
+    "data": "Float32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetFloati_v": {
+    "data": "Float32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetFloatv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFogFuncSGIS": {
+    "points": "Float32 out array [COMPSIZE()]"
+  }, 
+  "glGetFragmentLightfvSGIX": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFragmentLightivSGIX": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFragmentMaterialfvSGIX": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFragmentMaterialivSGIX": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFramebufferAttachmentParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFramebufferAttachmentParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFramebufferParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetFramebufferParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetHistogram": {
+    "values": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetHistogramEXT": {
+    "values": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetHistogramParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetHistogramParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetHistogramParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetHistogramParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetHistogramParameterxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetImageTransformParameterfvHP": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetImageTransformParameterivHP": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetInfoLogARB": {
+    "infoLog": "charARB out array [length]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetInteger64i_v": {
+    "data": "Int64 out array [COMPSIZE(target)]"
+  }, 
+  "glGetInteger64v": {
+    "params": "Int64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetIntegerIndexedvEXT": {
+    "data": "Int32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetIntegeri_v": {
+    "data": "Int32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetIntegerui64i_vNV": {
+    "result": "UInt64EXT out array [COMPSIZE(value)]"
+  }, 
+  "glGetIntegerui64vNV": {
+    "result": "UInt64EXT out array [COMPSIZE(value)]"
+  }, 
+  "glGetIntegerv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetInternalformati64v": {
+    "params": "Int64 out array [bufSize]"
+  }, 
+  "glGetInternalformativ": {
+    "params": "Int32 out array [bufSize]"
+  }, 
+  "glGetInvariantBooleanvEXT": {
+    "data": "Boolean out array [COMPSIZE(id)]"
+  }, 
+  "glGetInvariantFloatvEXT": {
+    "data": "Float32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetInvariantIntegervEXT": {
+    "data": "Int32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetLightfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetLightiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetLightxOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetListParameterfvSGIX": {
+    "params": "CheckedFloat32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetListParameterivSGIX": {
+    "params": "CheckedInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetLocalConstantBooleanvEXT": {
+    "data": "Boolean out array [COMPSIZE(id)]"
+  }, 
+  "glGetLocalConstantFloatvEXT": {
+    "data": "Float32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetLocalConstantIntegervEXT": {
+    "data": "Int32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetMapAttribParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMapAttribParameterivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMapControlPointsNV": {
+    "points": "Void out array [COMPSIZE(target)]"
+  }, 
+  "glGetMapParameterfvNV": {
+    "params": "Float32 out array [COMPSIZE(target/pname)]"
+  }, 
+  "glGetMapParameterivNV": {
+    "params": "Int32 out array [COMPSIZE(target/pname)]"
+  }, 
+  "glGetMapdv": {
+    "v": "Float64 out array [COMPSIZE(target/query)]"
+  }, 
+  "glGetMapfv": {
+    "v": "Float32 out array [COMPSIZE(target/query)]"
+  }, 
+  "glGetMapiv": {
+    "v": "Int32 out array [COMPSIZE(target/query)]"
+  }, 
+  "glGetMapxvOES": {
+    "v": "Fixed out array [COMPSIZE(query)]"
+  }, 
+  "glGetMaterialfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMaterialiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMinmax": {
+    "values": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetMinmaxEXT": {
+    "values": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetMinmaxParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMinmaxParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMinmaxParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMinmaxParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexEnvfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexEnvivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexGendvEXT": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexGenfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexGenivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexImageEXT": {
+    "pixels": "Void out array [COMPSIZE(target/level/format/type)]"
+  }, 
+  "glGetMultiTexLevelParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexLevelParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexParameterIivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexParameterIuivEXT": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultiTexParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultisamplefv": {
+    "val": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetMultisamplefvNV": {
+    "val": "Float32 out array [2]"
+  }, 
+  "glGetNamedBufferParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedBufferParameterui64vNV": {
+    "params": "UInt64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedBufferPointervEXT": {
+    "params": "VoidPointer out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedBufferSubDataEXT": {
+    "data": "Void out array [COMPSIZE(size)]"
+  }, 
+  "glGetNamedFramebufferAttachmentParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedFramebufferParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedProgramLocalParameterIivEXT": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetNamedProgramLocalParameterIuivEXT": {
+    "params": "UInt32 out array [4]"
+  }, 
+  "glGetNamedProgramLocalParameterdvEXT": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetNamedProgramLocalParameterfvEXT": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetNamedProgramStringEXT": {
+    "string": "Void out array [COMPSIZE(program,pname)]"
+  }, 
+  "glGetNamedProgramivEXT": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetNamedRenderbufferParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetNamedStringARB": {
+    "string": "Char out array [bufSize]", 
+    "stringlen": "Int32 out array [1]"
+  }, 
+  "glGetNamedStringivARB": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetObjectBufferfvATI": {
+    "params": "Float32 out array [1]"
+  }, 
+  "glGetObjectBufferivATI": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetObjectLabel": {
+    "label": "Char out array [bufSize]", 
+    "length": "SizeI out reference"
+  }, 
+  "glGetObjectParameterfvARB": {
+    "params": "Float32 out array [pname]"
+  }, 
+  "glGetObjectParameterivAPPLE": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetObjectParameterivARB": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetObjectPtrLabel": {
+    "label": "Char out array [bufSize]", 
+    "length": "SizeI out reference"
+  }, 
+  "glGetOcclusionQueryivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetOcclusionQueryuivNV": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPathColorGenfvNV": {
+    "value": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPathColorGenivNV": {
+    "value": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPathCommandsNV": {
+    "commands": "PathCommand out array [COMPSIZE(path)]"
+  }, 
+  "glGetPathCoordsNV": {
+    "coords": "Float32 out array [COMPSIZE(path)]"
+  }, 
+  "glGetPathDashArrayNV": {
+    "dashArray": "Float32 out array [COMPSIZE(path)]"
+  }, 
+  "glGetPathMetricRangeNV": {
+    "metrics": "Float32 out array [COMPSIZE(metricQueryMask,numPaths,stride)]"
+  }, 
+  "glGetPathMetricsNV": {
+    "metrics": "Float32 out array [COMPSIZE(metricQueryMask,numPaths,stride)]"
+  }, 
+  "glGetPathParameterfvNV": {
+    "value": "Float32 out array [4]"
+  }, 
+  "glGetPathParameterivNV": {
+    "value": "Int32 out array [4]"
+  }, 
+  "glGetPathSpacingNV": {
+    "returnedSpacing": "Float32 out array [COMPSIZE(pathListMode,numPaths)]"
+  }, 
+  "glGetPathTexGenfvNV": {
+    "value": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPathTexGenivNV": {
+    "value": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPerfMonitorCounterDataAMD": {
+    "bytesWritten": "Int32 out array [1]", 
+    "data": "UInt32 out array [dataSize]"
+  }, 
+  "glGetPerfMonitorCounterInfoAMD": {
+    "data": "Void out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPerfMonitorCounterStringAMD": {
+    "counterString": "Char out array [bufSize]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetPerfMonitorCountersAMD": {
+    "counters": "UInt32 out array [counterSize]", 
+    "maxActiveCounters": "Int32 out array [1]", 
+    "numCounters": "Int32 out array [1]"
+  }, 
+  "glGetPerfMonitorGroupStringAMD": {
+    "groupString": "Char out array [bufSize]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetPerfMonitorGroupsAMD": {
+    "groups": "UInt32 out array [groupsSize]", 
+    "numGroups": "Int32 out array [1]"
+  }, 
+  "glGetPixelMapfv": {
+    "values": "Float32 out array [COMPSIZE(map)]"
+  }, 
+  "glGetPixelMapuiv": {
+    "values": "UInt32 out array [COMPSIZE(map)]"
+  }, 
+  "glGetPixelMapusv": {
+    "values": "UInt16 out array [COMPSIZE(map)]"
+  }, 
+  "glGetPixelMapxv": {
+    "values": "Fixed out array [size]"
+  }, 
+  "glGetPixelTexGenParameterfvSGIS": {
+    "params": "CheckedFloat32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPixelTexGenParameterivSGIS": {
+    "params": "CheckedInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPixelTransformParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPixelTransformParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetPointerIndexedvEXT": {
+    "data": "VoidPointer out array [COMPSIZE(target)]"
+  }, 
+  "glGetPointerv": {
+    "params": "VoidPointer out reference"
+  }, 
+  "glGetPointervEXT": {
+    "params": "VoidPointer out array [1]"
+  }, 
+  "glGetPolygonStipple": {
+    "mask": "UInt8 out array [COMPSIZE()]"
+  }, 
+  "glGetProgramBinary": {
+    "binary": "Void out array [COMPSIZE(length)]", 
+    "binaryFormat": "GLenum out array [1]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetProgramEnvParameterIivNV": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetProgramEnvParameterIuivNV": {
+    "params": "UInt32 out array [4]"
+  }, 
+  "glGetProgramEnvParameterdvARB": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetProgramEnvParameterfvARB": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetProgramInfoLog": {
+    "infoLog": "Char out array [length]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetProgramInterfaceiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetProgramLocalParameterIivNV": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetProgramLocalParameterIuivNV": {
+    "params": "UInt32 out array [4]"
+  }, 
+  "glGetProgramLocalParameterdvARB": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetProgramLocalParameterfvARB": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetProgramNamedParameterdvNV": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetProgramNamedParameterfvNV": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetProgramParameterdvNV": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetProgramParameterfvNV": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetProgramPipelineInfoLog": {
+    "infoLog": "Char out array [COMPSIZE(length)]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetProgramPipelineiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetProgramResourceName": {
+    "length": "SizeI out reference", 
+    "name": "Char out array [bufSize]"
+  }, 
+  "glGetProgramResourceiv": {
+    "length": "SizeI out reference", 
+    "params": "Int32 out array [bufSize]"
+  }, 
+  "glGetProgramStageiv": {
+    "values": "Int32 out array [1]"
+  }, 
+  "glGetProgramStringARB": {
+    "string": "Void out array [COMPSIZE(target,pname)]"
+  }, 
+  "glGetProgramStringNV": {
+    "program": "ProgramCharacterNV out array [COMPSIZE(id/pname)]"
+  }, 
+  "glGetProgramSubroutineParameteruivNV": {
+    "param": "UInt32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetProgramiv": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetProgramivARB": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetProgramivNV": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetQueryIndexediv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetQueryObjecti64v": {
+    "params": "Int64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetQueryObjecti64vEXT": {
+    "params": "Int64EXT out array [pname]"
+  }, 
+  "glGetQueryObjectiv": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetQueryObjectivARB": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetQueryObjectui64v": {
+    "params": "UInt64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetQueryObjectui64vEXT": {
+    "params": "UInt64EXT out array [pname]"
+  }, 
+  "glGetQueryObjectuiv": {
+    "params": "UInt32 out array [pname]"
+  }, 
+  "glGetQueryObjectuivARB": {
+    "params": "UInt32 out array [pname]"
+  }, 
+  "glGetQueryiv": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetQueryivARB": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetRenderbufferParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetRenderbufferParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetSamplerParameterIiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetSamplerParameterIuiv": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetSamplerParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetSamplerParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetSeparableFilter": {
+    "column": "Void out array [COMPSIZE(target/format/type)]", 
+    "row": "Void out array [COMPSIZE(target/format/type)]", 
+    "span": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetSeparableFilterEXT": {
+    "column": "Void out array [COMPSIZE(target/format/type)]", 
+    "row": "Void out array [COMPSIZE(target/format/type)]", 
+    "span": "Void out array [COMPSIZE(target/format/type)]"
+  }, 
+  "glGetShaderInfoLog": {
+    "infoLog": "Char out array [length]", 
+    "length": "SizeI out array [1]"
+  }, 
+  "glGetShaderPrecisionFormat": {
+    "precision": "Int32 out array [2]", 
+    "range": "Int32 out array [2]"
+  }, 
+  "glGetShaderSource": {
+    "length": "SizeI out array [1]", 
+    "source": "Char out array [length]"
+  }, 
+  "glGetShaderSourceARB": {
+    "length": "SizeI out array [1]", 
+    "source": "charARB out array [length]"
+  }, 
+  "glGetShaderiv": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetSharpenTexFuncSGIS": {
+    "points": "Float32 out array [COMPSIZE(target)]"
+  }, 
+  "glGetSynciv": {
+    "length": "SizeI out array [1]", 
+    "values": "Int32 out array [length]"
+  }, 
+  "glGetTexBumpParameterfvATI": {
+    "param": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexBumpParameterivATI": {
+    "param": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexEnvfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexEnviv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexEnvxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexFilterFuncSGIS": {
+    "weights": "Float32 out array [COMPSIZE(target/filter)]"
+  }, 
+  "glGetTexGendv": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexGenfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexGeniv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexGenxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexImage": {
+    "pixels": "Void out array [COMPSIZE(target/level/format/type)]"
+  }, 
+  "glGetTexLevelParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexLevelParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexLevelParameterxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterIiv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterIivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterIuiv": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterIuivEXT": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterPointervAPPLE": {
+    "params": "VoidPointer out array [1]"
+  }, 
+  "glGetTexParameterfv": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameteriv": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTexParameterxvOES": {
+    "params": "Fixed out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureImageEXT": {
+    "pixels": "Void out array [COMPSIZE(target/level/format/type)]"
+  }, 
+  "glGetTextureLevelParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureLevelParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureParameterIivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureParameterIuivEXT": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureParameterfvEXT": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTextureParameterivEXT": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetTrackMatrixivNV": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetTransformFeedbackVarying": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array [COMPSIZE(length)]", 
+    "size": "SizeI out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetTransformFeedbackVaryingEXT": {
+    "length": "SizeI out array [1]", 
+    "name": "Char out array [COMPSIZE(length)]", 
+    "size": "SizeI out array [1]", 
+    "type": "GLenum out array [1]"
+  }, 
+  "glGetTransformFeedbackVaryingNV": {
+    "location": "Int32 out array [1]"
+  }, 
+  "glGetUniformIndices": {
+    "uniformIndices": "UInt32 out array [COMPSIZE(uniformCount)]"
+  }, 
+  "glGetUniformSubroutineuiv": {
+    "params": "UInt32 out array [1]"
+  }, 
+  "glGetUniformdv": {
+    "params": "Float64 out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformfv": {
+    "params": "Float32 out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformfvARB": {
+    "params": "Float32 out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformi64vNV": {
+    "params": "Int64EXT out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformiv": {
+    "params": "Int32 out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformivARB": {
+    "params": "Int32 out array [COMPSIZE(location)]"
+  }, 
+  "glGetUniformui64vNV": {
+    "params": "UInt64EXT out array [COMPSIZE(program/location)]"
+  }, 
+  "glGetUniformuiv": {
+    "params": "UInt32 out array [COMPSIZE(program/location)]"
+  }, 
+  "glGetUniformuivEXT": {
+    "params": "UInt32 out array [COMPSIZE(program/location)]"
+  }, 
+  "glGetVariantArrayObjectfvATI": {
+    "params": "Float32 out array [1]"
+  }, 
+  "glGetVariantArrayObjectivATI": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetVariantBooleanvEXT": {
+    "data": "Boolean out array [COMPSIZE(id)]"
+  }, 
+  "glGetVariantFloatvEXT": {
+    "data": "Float32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetVariantIntegervEXT": {
+    "data": "Int32 out array [COMPSIZE(id)]"
+  }, 
+  "glGetVariantPointervEXT": {
+    "data": "VoidPointer out array [COMPSIZE(id)]"
+  }, 
+  "glGetVertexAttribArrayObjectfvATI": {
+    "params": "Float32 out array [pname]"
+  }, 
+  "glGetVertexAttribArrayObjectivATI": {
+    "params": "Int32 out array [pname]"
+  }, 
+  "glGetVertexAttribIiv": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetVertexAttribIivEXT": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetVertexAttribIuiv": {
+    "params": "UInt32 out array [1]"
+  }, 
+  "glGetVertexAttribIuivEXT": {
+    "params": "UInt32 out array [1]"
+  }, 
+  "glGetVertexAttribLdv": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVertexAttribLdvEXT": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVertexAttribLi64vNV": {
+    "params": "Int64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVertexAttribLui64vNV": {
+    "params": "UInt64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVertexAttribPointerv": {
+    "pointer": "VoidPointer out array [1]"
+  }, 
+  "glGetVertexAttribPointervARB": {
+    "pointer": "VoidPointer out array [1]"
+  }, 
+  "glGetVertexAttribPointervNV": {
+    "pointer": "VoidPointer out array [1]"
+  }, 
+  "glGetVertexAttribdv": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetVertexAttribdvARB": {
+    "params": "Float64 out array [4]"
+  }, 
+  "glGetVertexAttribdvNV": {
+    "params": "Float64 out array [1]"
+  }, 
+  "glGetVertexAttribfv": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetVertexAttribfvARB": {
+    "params": "Float32 out array [4]"
+  }, 
+  "glGetVertexAttribfvNV": {
+    "params": "Float32 out array [1]"
+  }, 
+  "glGetVertexAttribiv": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetVertexAttribivARB": {
+    "params": "Int32 out array [4]"
+  }, 
+  "glGetVertexAttribivNV": {
+    "params": "Int32 out array [1]"
+  }, 
+  "glGetVideoCaptureStreamdvNV": {
+    "params": "Float64 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoCaptureStreamfvNV": {
+    "params": "Float32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoCaptureStreamivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoCaptureivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoi64vNV": {
+    "params": "Int64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoivNV": {
+    "params": "Int32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideoui64vNV": {
+    "params": "UInt64EXT out array [COMPSIZE(pname)]"
+  }, 
+  "glGetVideouivNV": {
+    "params": "UInt32 out array [COMPSIZE(pname)]"
+  }, 
+  "glGetnColorTableARB": {
+    "table": "Void out array [bufSize]"
+  }, 
+  "glGetnCompressedTexImageARB": {
+    "img": "Void out array [bufSize]"
+  }, 
+  "glGetnConvolutionFilterARB": {
+    "image": "Void out array [bufSize]"
+  }, 
+  "glGetnHistogramARB": {
+    "values": "Void out array [bufSize]"
+  }, 
+  "glGetnMapdvARB": {
+    "v": "Float64 out array [bufSize]"
+  }, 
+  "glGetnMapfvARB": {
+    "v": "Float32 out array [bufSize]"
+  }, 
+  "glGetnMapivARB": {
+    "v": "Int32 out array [bufSize]"
+  }, 
+  "glGetnMinmaxARB": {
+    "values": "Void out array [bufSize]"
+  }, 
+  "glGetnPixelMapfvARB": {
+    "values": "Float32 out array [bufSize]"
+  }, 
+  "glGetnPixelMapuivARB": {
+    "values": "UInt32 out array [bufSize]"
+  }, 
+  "glGetnPixelMapusvARB": {
+    "values": "UInt16 out array [bufSize]"
+  }, 
+  "glGetnPolygonStippleARB": {
+    "pattern": "UInt8 out array [bufSize]"
+  }, 
+  "glGetnSeparableFilterARB": {
+    "column": "Void out array [columnBufSize]", 
+    "row": "Void out array [rowBufSize]", 
+    "span": "Void out array [0]"
+  }, 
+  "glGetnTexImageARB": {
+    "img": "Void out array [bufSize]"
+  }, 
+  "glGetnUniformdvARB": {
+    "params": "Float64 out array [bufSize]"
+  }, 
+  "glGetnUniformfvARB": {
+    "params": "Float32 out array [bufSize]"
+  }, 
+  "glGetnUniformivARB": {
+    "params": "Int32 out array [bufSize]"
+  }, 
+  "glGetnUniformuivARB": {
+    "params": "UInt32 out array [bufSize]"
+  }, 
+  "glInstrumentsBufferSGIX": {
+    "buffer": "Int32 out array [size] retained"
+  }, 
+  "glPointAlongPathNV": {
+    "tangentX": "Float32 out array [1]", 
+    "tangentY": "Float32 out array [1]", 
+    "x": "Float32 out array [1]", 
+    "y": "Float32 out array [1]"
+  }, 
+  "glPollAsyncSGIX": {
+    "markerp": "UInt32 out array [1]"
+  }, 
+  "glPollInstrumentsSGIX": {
+    "marker_p": "Int32 out array [1]"
+  }, 
+  "glQueryMatrixxOES": {
+    "exponent": "Int32 out array [16]", 
+    "mantissa": "Fixed out array [16]"
+  }, 
+  "glReadPixels": {
+    "pixels": "Void out array [COMPSIZE(format/type/width/height)]"
+  }, 
+  "glReadnPixelsARB": {
+    "data": "Void out array [bufSize]"
+  }, 
+  "glSelectBuffer": {
+    "buffer": "SelectName out array [size] retained"
+  }, 
+  "glSelectPerfMonitorCountersAMD": {
+    "counterList": "UInt32 out array [numCounters]"
+  }, 
+  "glVDPAUGetSurfaceivNV": {
+    "length": "SizeI out reference", 
+    "values": "Int32 out array [length]"
+  }, 
+  "glVDPAURegisterOutputSurfaceNV": {
+    "vdpSurface": "Void out reference"
+  }, 
+  "glVertexArrayRangeAPPLE": {
+    "pointer": "Void out array [length]"
+  }, 
+  "glVideoCaptureNV": {
+    "capture_time": "UInt64EXT out reference", 
+    "sequence_num": "UInt32 out reference"
+  }
+}

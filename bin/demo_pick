@@ -1,0 +1,6 @@
+#!/usr/bin/python2.7
+
+from odium.scripts.pick import sample_pick
+
+if __name__ == '__main__':
+    sample_pick()

@@ -1,0 +1,21 @@
+* Agents
+* Envs
+* Controllers
+* DQN
+Change optimizer to SGD
+Change to abstract features from stupid features
+Store features during rollout
+Send extract features fn to sampler
+Use feature normalizer
+Change soft update to hard update (?)
+Clip target residual tensor so that it never makes the updated heuristic less than zero or more than env['max_timesteps']
+
+Dataset
+
+Add f to buffers
+Use the more elegant clearing function
+
+Sampler
+
+Add extract features fn
+ENable HER update
