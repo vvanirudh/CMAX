@@ -38,10 +38,6 @@ where `<agent>` should be one of `{'rts', 'dqn', 'mbpo', 'mbpo_knn', 'rts_correc
 
 and `<model>` should be one of `{'accurate', 'inaccurate'}`.
 
-## Name of the repository
-
-The name of the repository is inspired from the character [Odium](https://stormlightarchive.fandom.com/wiki/Odium)
-in the Stormlight Archive series.
 
 ## Contributors
 
