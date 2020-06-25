@@ -1,4 +1,16 @@
 # Planning and Execution using Inaccurate Models with Provable Guarantees
+## BibTeX Citation
+```
+@INPROCEEDINGS{Vemula-RSS-20, 
+    AUTHOR    = {Anirudh Vemula AND Yash Oza AND J. Bagnell AND Maxim Likhachev}, 
+    TITLE     = {{Planning and Execution using Inaccurate Models with Provable Guarantees}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2020}, 
+    ADDRESS   = {Corvalis, Oregon, USA}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2020.XVI.001} 
+} 
+```
 ## Dependencies
 Most of the dependencies are listed in the `requirements.txt` file, and can be installed using the command
 
