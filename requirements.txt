@@ -3,7 +3,7 @@ torch
 tensorboard
 ipdb
 mujoco_py
-tensorflow==1.15.2
+tensorflow==1.15.4
 mpi4py
 matplotlib
 ray
